@@ -26,7 +26,7 @@
 .contenedor{
   position: relative;
   display: inline-block;
-  float: left;
+  
 }
 .centrado{
   position: absolute;
@@ -348,7 +348,7 @@ figure.snip1091.hover figcaption:after {
   .contenedor{
     position: relative;
     display: inline-block;
-    float: left;
+    
   }
   .centrado{
     position: absolute;
@@ -426,7 +426,7 @@ figure.snip1091.hover figcaption:after {
   color: black;
   padding: 1.5%;
 }
-.imagengris{}
+
 .contacto{
   font-family: 'Questrial', sans-serif;
   font-size: 80%;
