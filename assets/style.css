@@ -1,0 +1,434 @@
+/* navbar*/
+.navbarbackgroun{
+  background-image: url(../assets/img/imgmia2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+    width: 4%;
+    contain: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+.navbar-light{
+  background-color:transparent!important;
+  background-size: cover;
+  background-position: top; 
+  width: 100%;
+  position: absolute;
+}
+.btn {
+  position: relative;
+  background-size: cover;
+}
+/*boton arriba de img*/
+.contenedor{
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.centrado{
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.centrado2{
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.centrado3{
+  position: absolute;
+  top: 150%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-family: 'Questrial', sans-serif;
+  font-size: 400%;
+}
+.name{
+  font-family: 'Questrial', sans-serif;
+  color: black;
+}
+.nameone{
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  
+}
+.contenedor{
+background: linear-gradient(#f69d3c, #3f87a6);
+ }
+.centrado4{
+  position: absolute;
+  top: 120%;
+  left: 20%;
+  color: black;
+
+  padding: 1.5%;
+}
+.centrado5{
+  position: absolute;
+  top: 140%;
+  left: 20%;
+  color: black;
+  padding: 1.5%;
+}
+.centrado6{
+  position: absolute;
+  top: 166%;
+  left: 20%;
+  color: black;
+
+  padding: 1.5%;
+}
+
+.tituloh{
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  top: 200%;
+  
+}
+.parrafoh{
+  font-family: 'Questrial', sans-serif;
+  color: black;
+
+}
+.titulop{
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  top: 250%;
+}
+/*seccion habilidades*/
+.name1{
+font-size: 100%;
+}
+.nametwo{
+ font-size: 100%;
+}
+/*sección mis proyectos*/
+.centrado7{
+  position: absolute;
+  top: 186%;
+  left: 20%;
+  color: black;
+  border-top-style: dashed;
+  border-right-style: dashed;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  padding: 1.5%;
+}
+
+.name2{
+  font-family: 'Questrial', sans-serif;
+  color: white;
+}
+/*proyectos*/
+.card-group{
+  top: 200%;
+}
+/* proyectos*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1091 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 10px 5px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 310px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1091 * {
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+figure.snip1091 img {
+  opacity: 0.25;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+figure.snip1091 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  right: 30px;
+  -webkit-transform: rotate(0deg) translateY(-50%) scale(1);
+  transform: rotate(0deg) translateY(-50%) scale(1);
+  -webkit-transform-origin: center 0;
+  transform-origin: center 0;
+}
+
+figure.snip1091 figcaption h2 {
+  top: 50%;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+figure.snip1091 figcaption h2 span {
+  font-weight: 800;
+}
+
+figure.snip1091 figcaption:before,
+figure.snip1091 figcaption:after {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+figure.snip1091 figcaption:before {
+  left: 0;
+  top: 0;
+}
+
+figure.snip1091 figcaption:after {
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip1091.blue {
+  background: #091b27;
+}
+
+figure.snip1091.red {
+  background: #2e0e0a;
+}
+
+figure.snip1091.yellow {
+  background: #4f3204;
+}
+
+figure.snip1091.green {
+  background: #061c10;
+}
+
+figure.snip1091.navy {
+  background: #000000;
+}
+
+figure.snip1091 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+figure.snip1091:hover img,
+figure.snip1091.hover img {
+  opacity: 1;
+}
+
+figure.snip1091:hover figcaption,
+figure.snip1091.hover figcaption {
+  -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
+  transform: rotate(-45deg) translateY(-50%) scale(0.9);
+}
+
+figure.snip1091:hover figcaption:before,
+figure.snip1091.hover figcaption:before,
+figure.snip1091:hover figcaption:after,
+figure.snip1091.hover figcaption:after {
+  width: 200%;
+}
+/* modificacionproyecto*/
+.contenedor3{
+  padding: 3%;
+  margin-top: 10%;
+  font-family: 'Questrial', sans-serif;
+}
+.proyecto{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+  
+}
+/*footer*/
+.footer{
+  margin-top: 20%;
+  text-align: center;
+}
+.footer-copyright{
+  text-align: center;
+  padding: 2%;
+}
+#iconos{
+  text-align: center;
+}
+.contacto{
+  font-family: 'Questrial', sans-serif;
+  
+}
+#contactame{
+  padding: 2%;
+  margin-top: 20%;
+}
+.footerone{
+  background-color: rgb(240, 239, 239);
+}
+/*objetivos*/
+
+/*CINMERAK*/
+.objetivos{
+  margin-top: 10%;
+}
+.boxone{
+  font-family: 'Questrial', sans-serif;
+}
+
+.carousel-item{
+  height: 350px;
+} 
+.carousel-item img{
+  height: 350px;
+}
+.imgcine{
+  padding: 2%;
+  margin-top: 5%;
+ 
+}
+/*SOBREMI*/
+.perfil{
+  margin-top: 10%;
+}
+.sobremi{
+  margin-top: 10%;
+  font-family: 'Questrial', sans-serif;
+}
+.fragmento{
+  margin-top: 5%;
+  font-family: 'Questrial', sans-serif;
+}
+.tiempolibre{
+  margin-top: 5%;
+  font-family: 'Questrial', sans-serif;
+}
+/*
+.boxone{
+  border-top: 2px solid turquoise;
+  border-right: 2px solid turquoise;
+  border-bottom: 2px solid turquoise;
+  border-left: 2px solid turquoise;
+}
+.box{
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+}*/
+.font-weight-light{
+  margin-top: 1%;
+}
+/* responsive*/
+@media (max-width: 850px) { /* visto desde el galaxi 5s 360x640*/
+  .btn {
+    position: relative;
+    background-size: cover;
+    font-size: 60%;
+  }
+  /*boton arriba de img*/
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  .centrado{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .centrado2{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .centrado3{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .logo{
+    width: 8%;
+    contain: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+.name{
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  font-size: 80%;
+}
+.nameone{
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  font-size: 80%;
+}
+.centrado3{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black
+}
+.name1{
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  font-size: 50%;
+  text-align: center;
+}
+.nametwo{
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  font-size: 50%;
+  text-align: center;
+}
+/*seccion habilidades*/
+.centrado4{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: black;
+  padding: 1.5%;
+}
+.centrado5{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: black;
+  padding: 1.5%;
+}
+.centrado6{
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  color: black;
+  padding: 1.5%;
+}
+.imagengris{}
+.contacto{
+  font-family: 'Questrial', sans-serif;
+  font-size: 80%;
+}
+  }
